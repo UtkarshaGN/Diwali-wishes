@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    font-family: "Salsa", cursive;
+}
+.dreamcatcher{
+    width: 220px;
+    margin-bottom: -200px;
+}
+.hero-section{
+   
+    background-image: url(images/orange-backdrop\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.para{
+   margin-left: 15rem;
+}
+.hero-section p{
+    font-size: 46px;
+    
+    width: 540px;
+    
+}
+     audio::-webkit-media-controls-panel {
+     background-color:#FBD8A4;
+     
+     }
+     .audio-container{
+        background-color:#FBD8A4;
+        max-width: max-content ;
+        border-radius: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       padding-left: 20px;
+     }
+
+/*Section-mid*/
+   .mid-section{
+    background-color:#F99501 ;
+    padding-block: 1em;
+    padding-inline: 1rem;
+   }
+   .horizontal-line-sec{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 810px;
+    margin-inline: auto;
+    margin-bottom: 1.5rem;
+   }
+
+   .circle{
+    height: 10px;
+    width: 10px;
+    background-color: #FBD8A4;
+    border-radius: 50%;
+    flex-shrink: 0;
+   }
+   .horizontal-line{
+    height: 2px;
+    background-color: #FBD8A4;
+    width: 468px;
+   
+   }
+
+  .lakshi-ganesh-sec{
+    max-width: 800px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+  }
+  .mid-section h2{
+   font-size: 40px;
+    font-family: "Style Script", cursive;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .white-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+.white-card{
+    background-color: white;
+    max-width: 500px;
+    border-radius: 22px;
+    padding: 4rem;
+    
+}
+.white-card p{
+    font-size: 22px;
+}
+.little-girl{
+    width:260px;
+    margin-left: -5rem;
+}
+
+.laxmi-ganesha-card{
+    padding: 4rem;
+    max-width: 772px;
+    background-color: white;
+    display: flex;
+    margin-inline: auto;
+    border-radius: 16px;
+
+}
+.laxmi-ganesha-card img{
+    width: 50%;
+}
+
+.thank-you-text{
+    max-width: 772px;
+    width: 100%;
+    margin-inline:auto ;
+    padding-left: 0;
+    padding-right: 8rem;
+    padding-block: 1rem;
+}
+.thank-you-text h2{
+    text-align: left;
+}
+.myname{
+    text-align: right;
+    font-size: 14px;
+}
+
+
+
+
+     @media(max-width : 840px) {
+        .deepak-first{
+            display: block;
+            margin-left: auto;
+        }
+        .deepak-second{
+            display: none;
+        }
+        .para{
+            margin-left: 1rem;
+        }
+        .dreamcatcher{
+            margin-bottom: 0;
+        }
+    .mb-view{
+        display: none;
+    }
+    .hero-section p{
+        font-size: 30px;
+    }
+    .white-card p{
+        font-size: 1rem;
+    }
+    .white-card{
+        padding-block: 1rem;
+        padding-left: 2rem;
+    }
+    .little-girl{
+        max-width: 160px;
+    }
+    .laxmi-ganesha-card{
+        padding: 2rem;
+    }
+
+     }
+
+
+     @media (max-width:540px){
+        .hero-section p{
+            font-size: 20px;
+        }
+        .deepak-first{
+            width: 100%;
+            max-width: 300px;
+        }
+        .mid-section h2{
+            font-size: 20px;
+        }
+     }
+     
